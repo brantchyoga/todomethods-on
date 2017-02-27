@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class = "container">
+      <form id="todo">
+        <div class="form-group">
+          <label for="new-inputs">To Do List, Add Task:</label>
+          <input type="text" class="form-control" id="inputs">
+        </div>
+        <div class="form-group">
+          <label for="new-timeline">To Do List, Add Timeline:</label>
+          <input type="text" class="form-control" id="timeline">
+        </div>
+        <div class="form-group">
+          <label for="new-who">To Do List, Add Who it is for:</label>
+          <input type="text" class="form-control" id="who">
+        </div>
+        <div class="form-group">
+          <label for="new-notes">To Do List, Add notes:</label>
+          <input type="text" class="form-control" id="notes">
+        </div>
+        <button type="submit" class="btn">Add</button>
+      </form>
+      <h2>This is awesome list maker!</h2>
+      <ol id="list" class="complete">
+      </ol>
+      <div class="col-md-6">
+  <div id="show">
+    <h2><span class="entry"</span></h2>
+
+    <p>Timeline: <span class="timeline"></span></p>
+    <p>Who: <span class="who"></span></p>
+    <p>Priority: <span class="priority"></span></p>
+    <p>Notes: <span class="notes"></span></p>
+    <button type='button' class='btn btn-primary'>Finish</button>
+  </div>
+</div>
+    </div>
+  </body>
+</html>
